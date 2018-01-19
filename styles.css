@@ -1,0 +1,112 @@
+body {
+	background-color: #131417;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+.container {
+	margin-top: 12%;
+}
+
+.intro {
+	font-size: 40px;
+	text-align: left;
+	font-weight: 400;
+}
+
+.hi {
+	padding-bottom: 5%;
+}
+
+p span {
+	font-weight: 600;
+}
+
+.shadpicture {
+	margin: auto;
+	padding-left: 5%;
+	padding-top: 2%
+}
+
+.shadpic {
+	width: 250px;
+}
+
+.aboutme {
+	margin-top: 15%;
+	margin-bottom: 10%;
+}
+
+.title {
+	color: #007bff;
+	text-transform: uppercase;
+	text-align: right;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 3px;
+	padding-right: 4%;
+}
+
+.aboutme2 {
+	font-size: 20px;
+	text-align: left;
+	padding-right: 10%;
+	font-weight: 300;
+}
+
+.position {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.location, li{
+	font-size: 16px;
+	font-weight: 300;
+	list-style-type: none;
+}
+
+li {
+	padding-bottom: 4%;
+}
+
+ul {
+	padding-top: 1%;
+	padding-left: 4%;
+}
+
+.job {
+	margin-bottom: 5%;
+}
+
+.job-last, .skills {
+	margin-bottom: 10%;
+}
+
+a:link, a:visited, a:hover {
+	color: #007bff;
+}
+
+.contact {
+	color: #007bff;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 3%;
+	padding-left: 2%;
+}
+/*Evan's Red #FF5A5F
+
+text-decoration: underline;
+	text-decoration-color: #FF5252;
+
+og bkgd color? #222
+#ff5252*/
+/*background: #1C1C1C;*/
+/*Back up Red #E65F5C;*/
+
+/*#007bff*/
+
+
+
+
+
+
