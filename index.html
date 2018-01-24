@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 	<title>Shad Khan</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/6316d7dd0d.css">
@@ -13,20 +12,20 @@
 <body>
 	<div class="container">
 		<div class="row intro">
-			<div class="col-sm-8 col-xs-12 welcomeMessage">
+			<div class="col-xs-8 welcomeMessage">
 				<p class="hi">Hi there! <i class="fa fa-smile-o" aria-hidden="true"></i></p>
-				<p>I'm <span>Shad Khan</span>, a student passionate about human-centered design as well as creative and courageous thinking.</p>
+				<p>I'm <span class="bold">Shad Khan</span>, a student passionate about human-centered design as well as creative and courageous thinking.</p>
 			</div>
-			<div class="col-sm-4 col-xs-12 shadpicture">
+			<div class="col-xs-4 shadpicture">
 				<img src="shadPic.jpg" class="img-circle shadpic">
 			</div>
 		</div>
 		<div class="row aboutme">
-			<div class="col-xs-4  title">Background</div>
-			<div class="col-xs-8  aboutme2">
-				<p>I'm a second year student at the University of Maryland-College Park. I'm a <span>Computer Science</span> major, and will graduate Fall 2019.</p><br>
-				<p>I'm interested in software engineering opportunities and internships where I can support a team by <span>creating, deploying, and sustaining</span> their innovative technologies and applications.</p><br>
-				<p>Whenever I'm not coding or studying, you can catch me playing basketball, cheering on my <span>Houston Rockets</span>, or trying out new food. Feel free to checkout my resume or contact me via <a target="_blank" href="https://www.linkedin.com/in/shadikhan/" class="linkedin">LinkedIn</a> or <a target="_blank" href="mailto:shadkhan2016@gmail.com" class="linkedin">Email</a>!</p>
+			<div class="col-xs-4 title">Background</div>
+			<div class="col-xs-8 bio">
+				<p>I'm a second year student at the University of Maryland-College Park. I'm a <span class="bold">Computer Science</span> major, and will graduate Fall 2019.</p><br>
+				<p>I'm interested in software engineering opportunities and internships where I can support a team by <span class="bold">creating, deploying, and sustaining</span> their innovative technologies and applications.</p><br>
+				<p>Whenever I'm not coding or studying, you can catch me playing basketball, cheering on my <span class="bold">Houston Rockets</span>, or trying out new food. Feel free to checkout my resume or contact me via <a target="_blank" href="https://www.linkedin.com/in/shadikhan/">LinkedIn</a> or <a target="_blank" href="mailto:shadkhan2016@gmail.com">Email</a>!</p>
 			</div>
 		</div>
 		<div class="row job">
@@ -53,51 +52,60 @@
 				<ul>
 					<li>Java</li>
 					<li>C</li>
-					<li>HTML</li>
-					<li>CSS</li>
+					<li>Matlab</li>
 				</ul>
 			</div>
 			<div class="col-xs-2">
-				<p class="position">Frameworks</p>
-				<ul>
-					<li>Bootstrap</li>
-				</ul>
-			</div>
-			<div class="col-xs-1">
-				<p class="position">Tools</p>
-				<ul>
-					<li>Git</li>
-					<li>Bash</li>
-				</ul>
-			</div>
-			<div class="col-xs-3">
-				<p class="position">Classes</p>
-				<ul>
-					<li>Object-Oriented Programming</li>
-					<li>Computer Systems</li>
-					<li>Discrete Mathematics</li>
-				</ul>
-			</div>
+				<p class="position" id="hidden">Languages</p>
+				<li>HTML</li>
+				<li>CSS</li>
+			</ul>
 		</div>
-
-		<div class="row contact">
-			<div class="col-xs-4 title">
-				<i class="fa fa-address-book" aria-hidden="true"></i>
-			</div>
-			<div class="col-xs-2 whites link">
-				<a target="_blank" href="https://www.linkedin.com/in/shadikhan/">LinkedIn</a>
-			</div>
-			<div class="col-xs-2 whites link">
-				<a target="_blank" href="https://github.com/shadikhan">GitHub</a>
-			</div>
-			<div class="col-xs-2 whites link">
-				<a target="_blank" href="https://www.instagram.com/_shadkhan_/?hl=en">Instagram</a>
-			</div>
-			<div class="col-xs-2 whites link">
-				<a target="_blank" href="mailto:shadkhan2016@gmail.com">Email</a>
-			</div>
+		<div class="col-xs-2">
+			<p class="position">Frameworks</p>
+			<ul>
+				<li>Bootstrap</li>
+			</ul>
 		</div>
-
+		<div class="col-xs-2">
+			<p class="position">Tools</p>
+			<ul>
+				<li>Git</li>
+				<li>Bash</li>
+			</ul>
+		</div>
 	</div>
+
+	<div class="row classes">
+		<div class="col-xs-4 title">Classes</div>
+		<div class="col-xs-4">
+			<ul class="down2">
+				<li>Object Oriented Programming I & II</li>
+				<li>Intro to Computer Systems</li>
+				<li>Discrete Structures</li>
+				<li>Org of Programming Languages (taking)</li>
+				<li>Algorithms (taking)</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row contact">
+		<div class="col-xs-4 title">
+			<i class="fa fa-address-book" aria-hidden="true"></i>
+		</div>
+		<div class="col-xs-2 whites link">
+			<a target="_blank" href="https://www.linkedin.com/in/shadikhan/">LinkedIn</a>
+		</div>
+		<div class="col-xs-2 whites link">
+			<a target="_blank" href="https://github.com/shadikhan">GitHub</a>
+		</div>
+		<div class="col-xs-2 whites link">
+			<a target="_blank" href="https://www.instagram.com/_shadkhan_/?hl=en">Instagram</a>
+		</div>
+		<div class="col-xs-2 whites link">
+			<a target="_blank" href="mailto:shadkhan2016@gmail.com">Email</a>
+		</div>
+	</div>
+</div>
 </body>
 </html>
